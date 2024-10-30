@@ -1,0 +1,58 @@
+<section class="services py-5 my-5" id="services">
+  <div class="container">
+    <h2 class="text-center mb-5">Our Services</h2>
+    <div class="row g-4">
+      <div class="col-12 col-sm-6 col-lg-3" *ngFor="let service of services">
+        <div class="card h-100 shadow-sm">
+          <img [src]="service.image" [alt]="service.title" class="card-img-top">
+          <div class="card-body d-flex flex-column">
+            <h3 class="card-title h5">{{service.title}}</h3>
+            <p class="card-text">{{service.description}}</p>
+            <button class="btn btn-primary mt-auto mb-2" (click)="openServiceDetails(service)">Learn More</button>
+            <a class="btn btn-outline-primary" [routerLink]="'/contact'">Request Service</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<!-- Modal -->
+<div class="modal fade" [class.show]="selectedService" [class.d-block]="selectedService" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-lg" *ngIf="selectedService">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">{{selectedService.title}}</h5>
+        <button type="button" class="btn-close" (click)="selectedService = null"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-12 mb-4">
+            <p class="lead">{{selectedService.longDescription}}</p>            
+          </div>
+          <!-- Show all before/after image pairs -->
+          <ng-container *ngFor="let image of selectedService.beforeAfterImages; let index = index">
+            <ng-container *ngIf="index % 2 === 0">
+              <div class="col-md-6 mb-4">
+                <h6 class="mb-3">Before</h6>
+                <img [src]="selectedService.beforeAfterImages[index]" 
+                     [alt]="'Before - ' + selectedService.title" 
+                     class="img-fluid rounded">
+              </div>
+              <div class="col-md-6 mb-4">
+                <h6 class="mb-3">After</h6>
+                <img [src]="selectedService.beforeAfterImages[index + 1]" 
+                     [alt]="'After - ' + selectedService.title" 
+                     class="img-fluid rounded">
+              </div>
+            </ng-container>
+          </ng-container>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" (click)="selectedService = null">Close</button>
+        <button type="button" class="btn btn-primary">Request Service</button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,5 @@
+<app-hero *ngIf="content?.hero" [heroData]="content?.hero"></app-hero>  
+<app-services *ngIf="content?.services" [services]="content?.services"></app-services>
+<app-projects *ngIf="content?.projects" [projects]="content?.projects" [services]="content?.services"></app-projects>
+<app-testimonial *ngIf="content?.testimonials" [testimonials]="content?.testimonials"></app-testimonial>
+<app-about></app-about>

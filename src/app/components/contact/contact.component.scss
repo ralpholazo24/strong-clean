@@ -1,0 +1,58 @@
+
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  
+  i {
+    font-size: 1.25rem;
+    color: var(--primary-color);
+  }
+}
+
+.social-links {
+  a {
+    font-size: 1.5rem;
+    color: var(--secondary-color);
+    transition: color 0.3s ease;
+    
+    &:hover {
+      color: var(--primary-color);
+    }
+  }
+}
+
+.form-control {
+  padding: 0.75rem;
+  
+  &:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.25rem rgba(139, 38, 53, 0.25);
+  }
+}
+
+.btn-primary {
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+  padding: 0.75rem 2rem;
+
+  &:hover, &:focus, &:active {
+    background-color: darken(#8B2635, 10%) !important;
+    border-color: darken(#8B2635, 10%) !important;
+  }
+}
+
+.text-primary {
+  color: var(--primary-color) !important;
+}
+
+.social-links a {
+  transition: opacity 0.2s ease-in-out;
+  
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.contact-item a:hover {
+  color: var(--primary-color) !important;
+}

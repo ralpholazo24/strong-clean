@@ -1,1 +1,58 @@
 /* You can add global styles to this file, and also import other style files */
+
+// Import Bootstrap
+@import 'node_modules/bootstrap/scss/bootstrap';
+
+:root {
+  --primary-color: #8B2635;
+  --secondary-color: #333;
+  --outline-primary-color: #8B2635;
+}
+
+body {
+  padding-top: 76px;
+}
+
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+              url('/assets/images/hero-bg.jpg') center/cover;
+  min-height: calc(100vh - 76px);
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  
+  &:hover {
+    background-color: darken(#8B2635, 10%);
+    border-color: darken(#8B2635, 10%);
+  }
+}
+
+.btn-outline-primary {
+  border-color: var(--outline-primary-color);
+  color: var(--outline-primary-color);
+
+  &:hover {
+    background-color: var(--outline-primary-color);
+    border-color: var(--outline-primary-color);
+    color: #fff;
+  }
+}
+
+.bg-primary {
+  background-color: var(--primary-color) !important;  
+}
+
+.text-primary {
+  color: var(--primary-color) !important;
+}
+
+.card {
+  transition: transform 0.3s ease;
+  
+  &:hover {
+    transform: translateY(-5px);
+  }
+}
+

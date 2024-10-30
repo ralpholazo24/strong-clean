@@ -1,0 +1,52 @@
+.footer {
+  .footer-brand {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+  }
+
+  .social-links {
+    a {
+      color: var(--primary-color);
+      font-size: 1.25rem;
+      transition: opacity 0.3s ease;
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+
+  .footer-links {
+    li {
+      margin-bottom: 0.75rem;
+
+      a {
+        color: #fff;
+        text-decoration: none;
+        transition: color 0.3s ease;
+
+        &:hover {
+          color: var(--primary-color);
+        }
+      }
+    }
+  }
+
+  .footer-contact {
+    li {
+      display: flex;
+      align-items: start;
+      color: #fff;
+
+      i {
+        color: var(--primary-color);
+        margin-top: 4px;
+      }
+    }
+  }
+} 
+
+hr {
+  height: 2px;
+}

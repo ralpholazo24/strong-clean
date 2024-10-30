@@ -1,0 +1,14 @@
+.card {
+  transition: transform 0.2s;
+  
+  &:hover {
+    transform: translateY(-3px);
+  }
+}
+
+.service-tags {
+  .badge {
+    font-size: 0.75rem;
+  }
+}
+

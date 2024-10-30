@@ -1,0 +1,292 @@
+{
+  "hero": {
+    "title": "Top-Rated Industrial Cleaning Services for a Safer, Cleaner Workplace",
+    "subtitle": "Get expert duct, tank, and industrial cleaning solutions tailored to your business. Contact us today for a free assessment!",
+    "primaryCTA": {
+      "text": "Get a Quote",
+      "link": "/contact"
+    },
+    "secondaryCTA": {
+      "text": "Our Services",
+      "link": "#services"
+    },
+    "backgroundImage": "assets/images/hero-bg.jpg"
+  },
+  "services": [
+    {
+      "id": 1,
+      "title": "Kitchen Duct Cleaning",
+      "description": "Professional kitchen exhaust system cleaning with state-of-the-art equipment for restaurants and commercial kitchens",
+      "longDescription": "The most common fire hazards in the kitchen is the grease laden kitchen ducts. The accumulated quantity of grease, oil and other residues in the kitchen duct due to poor maintenance of the kitchen extract systems could ignite and cause fire. The kitchen duct cleaning is dependent on the activity of the kitchen. Frequent grilling or 24 hours in operation needs a monthly cleaning. Otherwise it could be done quarterly or semi-annually. Therefore it is vital to keep kitchen ducts clean. We will provide the services that is of quality, fast and safe.",
+      "image": "assets/images/kitchen-exhaust-after-cleaning-1.jpg",
+      "beforeAfterImages": [
+        "assets/images/kitchen-exhaust-before-cleaning-1.jpg",
+        "assets/images/kitchen-exhaust-after-cleaning-1.jpg",
+        "assets/images/kitchen-exhaust-before-cleaning-2.jpg",
+        "assets/images/kitchen-exhaust-after-cleaning-2.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Water Tank Cleaning",
+      "description": "Comprehensive water tank cleaning and maintenance services ensuring clean and safe water storage",
+      "longDescription": "We are oftentimes unaware that our water supply stored in our tanks whether for commercial, industrial or household use are already contaminated because of impurities and particulate matters that can go inside the tank. Water can be polluted and might cause infections to its end users, thus cleaning is needed to have a safe water supply. The water cleaning is recommended to be cleaned at least once a year. You can count on our company to deliver the technique for your water tank cleaning services.",
+      "image": "assets/images/water-tank-after-cleaning-1.jpg",
+      "beforeAfterImages": [        
+        "assets/images/water-tank-before-cleaning-1.jpg",
+        "assets/images/water-tank-after-cleaning-1.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "AHU and Air Duct Cleaning",
+      "description": "Complete HVAC and air duct cleaning services for improved air quality and system efficiency",
+      "longDescription": "It is common nowadays that commercial, industrial, office buildings, condominiums and the like are provided with ventilation system to provide the fresh air needed and the right temperature of the facility. The air flows to the air ducts from the air handling unit. So there maybe various dirt on the surfaces of the air ducts that contaminates the distributed air. Thus the necessity for the cleaning of the air ducts and the air handling unit. It is the best remedy to bring comfort and a healthy air to the occupants, clients, and customers of the building. Air duct should be cleaned and disinfected every six(6) months or the least is annually. Let us provide you the quickest service possible with a good quality of work.",
+      "image": "assets/images/aircon-duct-after-cleaning-1.jpg",
+      "beforeAfterImages": [
+        "assets/images/aircon-duct-before-cleaning-1.jpg",
+        "assets/images/aircon-duct-after-cleaning-1.jpg",
+        "assets/images/aircon-duct-before-cleaning-2.jpg",
+        "assets/images/aircon-duct-after-cleaning-2.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Laundry Duct Cleaning",
+      "description": "Laundry duct cleaning services to ensure clean and safe air circulation in commercial laundry facilities",
+      "longDescription": "Laundry duct cleaning is very important to prevent the hazards of fire. The towels, beddings and the like when washed and dried there is accumulated quantity of fibers or lints which is vented out in the landry duct system. The laundry duct is recommended to be cleaned at least once a year. We guarantee the quality of our work to keep your duct clean and safe from fire.",
+      "image": "assets/images/laundry-duct-after-cleaning.jpg",
+      "beforeAfterImages": [
+        "assets/images/laundry-duct-before-cleaning.jpg",
+        "assets/images/laundry-duct-after-cleaning.jpg"
+      ]
+    }
+  ],
+  "projects": {
+    "title": "Supervised International and Local Projects",
+    "list": [
+      {
+        "name": "Zirco Island - Abu Dhabi Oil Refinery Admin Building",
+        "serviceIds": [1, 3],
+        "location": "Abu Dhabi",
+        "country": "UAE"
+      },
+      {
+        "name": "Dust Island Abu Dhabi Oil Refinery",
+        "serviceIds": [3],
+        "location": "Abu Dhabi",
+        "country": "UAE"
+      },
+      {
+        "name": "Banias Island",
+        "serviceIds": [3],
+        "location": "Abu Dhabi",
+        "country": "UAE"
+      },
+      {
+        "name": "Abu Dhabi International Airport",
+        "serviceIds": [1],
+        "location": "Abu Dhabi",
+        "country": "UAE"
+      },
+      {
+        "name": "Dubai Dry Duct",
+        "serviceIds": [2, 3],
+        "location": "Dubai",
+        "country": "UAE"
+      },
+      {
+        "name": "Burj Al Arab Hotel",
+        "serviceIds": [3],
+        "location": "Dubai",
+        "country": "UAE"
+      },
+      {
+        "name": "Sheikh Khalifa Presidential Palace",
+        "serviceIds": [3],
+        "location": "Abu Dhabi",
+        "country": "UAE"
+      },
+      {
+        "name": "Hyatt Hotel",
+        "serviceIds": [1],
+        "location": "Abu Dhabi",
+        "country": "UAE"
+      },
+      {
+        "name": "Central Bank of the Philippines",
+        "serviceIds": [3],
+        "location": "Manila",
+        "country": "Philippines"
+      },
+      {
+        "name": "Diamond Hotel",
+        "serviceIds": [1],
+        "location": "Manila",
+        "country": "Philippines"
+      },
+      {
+        "name": "Philippine Airlines Building",
+        "serviceIds": [3],
+        "location": "Manila",
+        "country": "Philippines"
+      },
+      {
+        "name": "SMX Convention Center",
+        "serviceIds": [1, 3],
+        "location": "Manila",
+        "country": "Philippines"
+      },
+      {
+        "name": "Medical City",
+        "serviceIds": [1, 3],
+        "location": "Manila",
+        "country": "Philippines"
+      },
+      {
+        "name": "Tiendesitas",
+        "serviceIds": [1],
+        "location": "Manila",
+        "country": "Philippines"
+      },
+      {
+        "name": "Rub Ribs",
+        "serviceIds": [1],
+        "location": "Manila",
+        "country": "Philippines"
+      },
+      {
+        "name": "Transcom Building",
+        "serviceIds": [2],
+        "location": "Manila",
+        "country": "Philippines"
+      },
+      {
+        "name": "Silver City",
+        "serviceIds": [1],
+        "location": "Manila",
+        "country": "Philippines"
+      },
+      {
+        "name": "Bagoong Club",
+        "serviceIds": [1],
+        "location": "Manila",
+        "country": "Philippines"
+      },
+      {
+        "name": "United Laboratories",
+        "serviceIds": [1, 3],
+        "location": "Manila",
+        "country": "Philippines"
+      },
+      {
+        "name": "Schneider Electric",
+        "serviceIds": [3],
+        "location": "Manila",
+        "country": "Philippines"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Have questions? We'd love to hear from you. Send us a message and we'll respond as soon as possible.",
+    "landline": "(02)8057202",
+    "phone": "+63 995 383 8714",
+    "email": "strongclean2016@gmail.com",
+    "address": "123 Main Street, Manila, Philippines",
+    "facebook": "https://www.facebook.com/profile.php?id=100054390212595",
+    "instagram": "https://www.instagram.com/strongclean2016",
+    "mapUrl": "https://www.google.com/maps/embed?pb=your-map-embed-url"
+  },
+  "footer": {
+    "companyName": "Strong Clean",
+    "description": "Setting new standards in professional cleaning services with international expertise and local insights.",
+    "socialLinks": {
+      "facebook": "https://facebook.com/strongclean",
+      "instagram": "https://instagram.com/strongclean",
+      "linkedin": "https://linkedin.com/company/strongclean"
+    },
+    "quickLinks": {
+      "title": "Quick Links",
+      "links": [
+        {
+          "text": "Home",
+          "route": "/"
+        },
+        {
+          "text": "Services",
+          "route": "/",
+          "fragment": "services"
+        },
+        {
+          "text": "Projects",
+          "route": "/",
+          "fragment": "projects"
+        },
+        {
+          "text": "Contact",
+          "route": "/contact"
+        }
+      ]
+    },
+    "services": {
+      "title": "Our Services",
+      "items": [
+        "Industrial Cleaning",
+        "Commercial Cleaning",
+        "Residential Cleaning",
+        "Specialized Services"
+      ]
+    },
+    "contact": {
+      "title": "Contact Info",
+      "address": "123 Main Street, Manila, Philippines",
+      "landline": "(02)8057202",
+      "phone": "+63 995 383 8714",
+      "email": "strongclean2016@gmail.com"
+    },
+    "copyright": "© 2024 Strong Clean Industrial Services. All rights reserved."
+  },
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Ahmad Al-Rashid",
+      "role": "Facility Manager",
+      "company": "Burj Al Arab Hotel",
+      "content": "Strong Clean's attention to detail in our air duct cleaning project was exceptional. They worked efficiently without disrupting our hotel operations and delivered outstanding results. Our air quality has significantly improved.",
+      "image": ""
+    },
+    {
+      "id": 2,
+      "name": "Maria Santos",
+      "role": "Operations Director",
+      "company": "Medical City",
+      "content": "As a healthcare facility, maintaining clean air ducts is crucial. Strong Clean's team demonstrated profound expertise and professionalism. Their thorough cleaning process and documentation met all our stringent requirements.",
+      "image": ""
+    },
+    {
+      "id": 3,
+      "name": "James Chen",
+      "role": "Restaurant Owner",
+      "company": "Silver City",
+      "content": "We've been using Strong Clean's kitchen duct cleaning services for two years now. Their work is thorough and reliable, helping us maintain our safety standards and pass inspections with flying colors.",
+      "image": ""
+    },
+    {
+      "id": 4,
+      "name": "Sarah Martinez",
+      "role": "Property Manager",
+      "company": "Transcom Building",
+      "content": "The water tank cleaning service provided by Strong Clean was impressive. Their team was professional, used advanced equipment, and completed the job within the promised timeframe. Highly recommended!",
+      "image": ""
+    },
+    {
+      "id": 5,
+      "name": "Mohammed Al-Sayed",
+      "role": "Chief Engineer",
+      "company": "Abu Dhabi International Airport",
+      "content": "Strong Clean's expertise in handling large-scale industrial cleaning projects is remarkable. Their team's understanding of safety protocols and ability to work in sensitive areas made them the perfect choice for our facility.",
+      "image": ""
+    }
+  ]
+} 

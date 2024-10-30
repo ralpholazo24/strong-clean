@@ -1,0 +1,36 @@
+<section class="hero position-relative d-flex align-items-center text-white" id="home">
+  <!-- Animated background overlay -->
+  <div class="hero-overlay"></div>
+  
+  <!-- Geometric shapes for visual interest -->
+  <div class="shape shape-1"></div>
+  <div class="shape shape-2"></div>
+  <div class="shape shape-3"></div>
+
+  <div class="container position-relative z-2">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center">
+        <!-- Animated heading with highlight -->
+        <h1 class="display-3 fw-bold mb-4 animate__animated animate__fadeInUp">
+          <span class="highlight">{{heroData.title}}</span>
+        </h1>
+        
+        <!-- Enhanced subtitle -->
+        <p class="lead mb-5 animate__animated animate__fadeInUp animate__delay-1s">
+          {{heroData.subtitle}}
+        </p>
+        
+        <!-- CTA buttons with hover effects -->
+        <div class="d-flex justify-content-center gap-4 animate__animated animate__fadeInUp animate__delay-2s">
+          <a [href]="heroData.primaryCTA.link" class="btn btn-primary btn-lg btn-glow">
+            {{heroData.primaryCTA.text}}
+            <i class="fas fa-arrow-right ms-2"></i>
+          </a>
+          <a [href]="heroData.secondaryCTA.link" class="btn btn-outline-light btn-lg btn-hover-slide">
+            {{heroData.secondaryCTA.text}}
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
